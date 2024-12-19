@@ -1,0 +1,10 @@
+import tkinter as tk
+root = tk.Tk()
+root.title("计算器")
+root.geometry("400x360+500+600")
+t=tk.Text(root,state="disable")
+t.pack()
+t.config(state="normal")
+t.insert(0.0,"hello")
+t.config(state="disable")
+root.mainloop()
