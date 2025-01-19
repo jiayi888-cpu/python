@@ -1,0 +1,6 @@
+x, y = koch_snowflake(order=5)
+
+plt.figure(figsize=(8, 8))
+plt.axis('equal')
+plt.fill(x, y)
+plt.show()
