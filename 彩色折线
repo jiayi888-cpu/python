@@ -1,0 +1,8 @@
+x = [0, 1, 2, 3, 4]
+y = [0, 1, 2, 1, 1]
+c = [1, 2, 3, 4, 5]
+fig, ax = plt.subplots()
+ax.scatter(x, y, c=c, cmap='rainbow')
+colored_line(x, y, c=c, ax=ax, cmap='rainbow')
+
+plt.show()
